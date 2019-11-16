@@ -29,9 +29,11 @@
 　　接下来就开始焊接了，但是我是在吧实物做好了之后才想起来要发帖的，所以焊接的过程就yy一下就行了....其实焊接的过程很简单，花了我一个下午加晚上的时间，不要问我为什么花费这么久，看图。
   
 先上一张正面图
+
 ![完成作品正面](https://github.com/hehung/51_music_player/blob/master/img/%E5%AE%8C%E6%88%90%E4%BD%9C%E5%93%81%E6%AD%A3%E9%9D%A2.jpg?raw=true "完成作品正面")
 
 背面图
+
 ![完成作品背面图](https://github.com/hehung/51_music_player/blob/master/img/%E5%AE%8C%E6%88%90%E4%BD%9C%E5%93%81%E8%83%8C%E9%9D%A2%E5%9B%BE.jpg?raw=true "完成作品背面图")
 
 # 引脚连接
