@@ -1,0 +1,72 @@
+C51 COMPILER V9.01   D1602                                                                 12/18/2016 13:07:28 PAGE 1   
+
+
+C51 COMPILER V9.01, COMPILATION OF MODULE D1602
+OBJECT MODULE PLACED IN D1602.OBJ
+COMPILER INVOKED BY: F:\Keil_v5\C51\BIN\C51.EXE D1602.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          #include "D1602.H"
+   2          #include "init.h"
+   3          
+   4          sbit rw=P1^1;
+   5          sbit rs=P1^0;
+   6          sbit e=P1^2;
+   7          
+   8          void xzl(uchar com){
+   9   1           rw=0;
+  10   1               rs=0;
+  11   1               e=0;
+  12   1               P0=com; 
+  13   1               delay_ms(1);
+  14   1           e=1;
+  15   1               delay_ms(2);
+  16   1               e=0;    
+  17   1      }
+  18          
+  19          void xsj(uchar dat){
+  20   1           rw=0;
+  21   1               rs=1;
+  22   1               e=0;
+  23   1               P0=dat; 
+  24   1               delay_ms(1);
+  25   1           e=1;
+  26   1               delay_ms(2); 
+  27   1               e=0;
+  28   1      }
+  29          
+  30          void init(){
+  31   1               delay_ms(1);
+  32   1               xzl(0x38);
+  33   1               delay_ms(1);
+  34   1               xzl(0x38);
+  35   1               delay_ms(1);
+  36   1               xzl(0x0f);
+  37   1               delay_ms(1);
+  38   1               xzl(0x08);
+  39   1               delay_ms(1);
+  40   1               xzl(0x01);
+  41   1               delay_ms(12);
+  42   1               xzl(0x06);
+  43   1               delay_us(50);
+  44   1               xzl(0x0c);
+  45   1               delay_us(50);
+  46   1      }
+  47          
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    145    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+C51 COMPILER V9.01   D1602                                                                 12/18/2016 13:07:28 PAGE 2   
+
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

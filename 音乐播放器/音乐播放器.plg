@@ -1,0 +1,22 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Administrator\Desktop\校赛\单片机设计\5 - 加歌\音乐播放器.uvproj
+Project File Date:  12/18/2016
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=21.0 xdata=0 code=2551
+creating hex file from "音乐播放器"...
+"音乐播放器" - 0 Error(s), 0 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=21.0 xdata=0 code=2554
+creating hex file from "音乐播放器"...
+"音乐播放器" - 0 Error(s), 0 Warning(s).
