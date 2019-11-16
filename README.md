@@ -1,4 +1,3 @@
-
 # 前言
 　　该文章是我在2016年的时候发布在电子发烧友论坛上面的，但是还是在校大学生，没有个人博客，现在搭建了一个个人博客，所以就把文章转到了个人博客上了。该文章在电子发烧友上的链接：[[经验] 51单片机的音乐盒(c语言)](http://bbs.elecfans.com/jishu_1102723_1_1.html "[经验] 51单片机的音乐盒(c语言)")
   
@@ -14,15 +13,15 @@
 # 电路设计
 　　音乐盒所要用到的原理图都是我从网上搜的，所以与我所做的实物的线路连接还是有一些区别的，还是贴一下图吧。
 ## 52单片机最小系统板电路图　
-  ![51单片机最小电路](http://bbs.elecfans.com/data/attachment/forum/201612/18/145151ncqd1ou6jc376r6q.jpg.thumb.jpg "51单片机最小电路")
+  ![51单片机最小电路](https://github.com/hehung/51_music_player/blob/master/img/51%E5%8D%95%E7%89%87%E6%9C%BA%E6%9C%80%E5%B0%8F%E7%94%B5%E8%B7%AF.jpg?raw=true "51单片机最小电路")
 ## 1602液晶电路图
 ![LCD1602液晶屏电路](http://bbs.elecfans.com/data/attachment/forum/201612/18/145152gd1jk13asdkdq423.jpg.thumb.jpg "LCD1602液晶屏电路")
 
 ## 蜂鸣器驱动电路图
-![蜂鸣器驱动电路](http://bbs.elecfans.com/data/attachment/forum/201612/18/145152cloojjv3ll1485jo.jpg.thumb.jpg "蜂鸣器驱动电路")
+![蜂鸣器驱动电路](https://github.com/hehung/51_music_player/blob/master/img/LCD1602%E6%B6%B2%E6%99%B6%E5%B1%8F%E7%94%B5%E8%B7%AF.jpg?raw=true "蜂鸣器驱动电路")
 
 ## 按键电路图
-![按键电路设计](http://bbs.elecfans.com/data/attachment/forum/201612/18/154105qoucnstn9ns66nnn.png.thumb.jpg "按键电路设计")
+![按键电路设计](https://github.com/hehung/51_music_player/blob/master/img/%E8%9C%82%E9%B8%A3%E5%99%A8%E9%A9%B1%E5%8A%A8%E7%94%B5%E8%B7%AF.jpg?raw=true "按键电路设计")
 
 　　 这里有两种案件的连接方式，我采用的是第一种，这样写程序的时候，当按键按下时，相应的IO口就会变成低电平，而第二种相应的IO口会变成高电平。
 
@@ -30,10 +29,10 @@
 　　接下来就开始焊接了，但是我是在吧实物做好了之后才想起来要发帖的，所以焊接的过程就yy一下就行了....其实焊接的过程很简单，花了我一个下午加晚上的时间，不要问我为什么花费这么久，看图。
   
   先上一张正面图
-![完成作品正面](http://bbs.elecfans.com/data/attachment/forum/201612/18/151004dyx4qgofxpamwmfh.png.thumb.jpg "完成作品正面")
+![完成作品正面](https://github.com/hehung/51_music_player/blob/master/img/%E5%AE%8C%E6%88%90%E4%BD%9C%E5%93%81%E6%AD%A3%E9%9D%A2.jpg?raw=true "完成作品正面")
 
 背面图
-![完成作品背面图](http://bbs.elecfans.com/data/attachment/forum/201612/18/151002obmvm6rvs2ivs6sq.png.thumb.jpg "完成作品背面图")
+![完成作品背面图](https://github.com/hehung/51_music_player/blob/master/img/%E5%AE%8C%E6%88%90%E4%BD%9C%E5%93%81%E8%83%8C%E9%9D%A2%E5%9B%BE.jpg?raw=true "完成作品背面图")
 
 # 引脚连接
 　　背面的电路图看着有点乱，但是仔细焊接的话，还是不复杂的。
@@ -50,19 +49,12 @@
 
 　　在附几张图。我用的是1602，不能显示中文（能显示，只不过没花时间去弄，期末了，要复习），如果想方便显示中文的话害的要一个12864液晶，显示中文很方便。
   
-  ![成品展示１](http://bbs.elecfans.com/data/attachment/forum/201612/18/161508pq3yutfujpyj9yy3.png.thumb.jpg "成品展示１")
+  ![成品展示１](https://github.com/hehung/51_music_player/blob/master/img/%E6%88%90%E5%93%81%E5%B1%95%E7%A4%BA%EF%BC%91.jpg?raw=true "成品展示１")
 
 　　来张动态图
-![成品展示２](http://bbs.elecfans.com/data/attachment/forum/201612/18/161551gv3zvi5tphezzfcy.gif "成品展示２")
+![成品展示２](https://github.com/hehung/51_music_player/blob/master/img/%E6%88%90%E5%93%81%E5%B1%95%E7%A4%BA%EF%BC%92.gif?raw=true "成品展示２")
 
 # 代码下载
 　　附上我的程序：这个程序的歌词代码也是我从网上搜集来的，只不过网上的代码都没怎么集合，很零散，而且每个代码的写法都不同，经过我几个小时的整合，我把一些代码都集合了起来，目前放了5首歌在里面，包含了，暂停，上一曲和下一曲的功能。功能都能够实现。
-
-
-
-
-
-
-
 
 
