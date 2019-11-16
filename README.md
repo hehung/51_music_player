@@ -15,7 +15,7 @@
 ## 52单片机最小系统板电路图　
 ![51单片机最小电路](https://github.com/hehung/51_music_player/blob/master/img/51%E5%8D%95%E7%89%87%E6%9C%BA%E6%9C%80%E5%B0%8F%E7%94%B5%E8%B7%AF.jpg?raw=true "51单片机最小电路")
 ## 1602液晶电路图
-![LCD1602液晶屏电路](http://bbs.elecfans.com/data/attachment/forum/201612/18/145152gd1jk13asdkdq423.jpg.thumb.jpg "LCD1602液晶屏电路")
+![LCD1602液晶屏电路](https://github.com/hehung/51_music_player/blob/master/img/LCD1602%E6%B6%B2%E6%99%B6%E5%B1%8F%E7%94%B5%E8%B7%AF.jpg?raw=true "LCD1602液晶屏电路")
 
 ## 蜂鸣器驱动电路图
 ![蜂鸣器驱动电路](https://github.com/hehung/51_music_player/blob/master/img/LCD1602%E6%B6%B2%E6%99%B6%E5%B1%8F%E7%94%B5%E8%B7%AF.jpg?raw=true "蜂鸣器驱动电路")
