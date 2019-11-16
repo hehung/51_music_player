@@ -13,7 +13,7 @@
 # 电路设计
 　　音乐盒所要用到的原理图都是我从网上搜的，所以与我所做的实物的线路连接还是有一些区别的，还是贴一下图吧。
 ## 52单片机最小系统板电路图　
-  ![51单片机最小电路](https://github.com/hehung/51_music_player/blob/master/img/51%E5%8D%95%E7%89%87%E6%9C%BA%E6%9C%80%E5%B0%8F%E7%94%B5%E8%B7%AF.jpg?raw=true "51单片机最小电路")
+![51单片机最小电路](https://github.com/hehung/51_music_player/blob/master/img/51%E5%8D%95%E7%89%87%E6%9C%BA%E6%9C%80%E5%B0%8F%E7%94%B5%E8%B7%AF.jpg?raw=true "51单片机最小电路")
 ## 1602液晶电路图
 ![LCD1602液晶屏电路](http://bbs.elecfans.com/data/attachment/forum/201612/18/145152gd1jk13asdkdq423.jpg.thumb.jpg "LCD1602液晶屏电路")
 
@@ -52,6 +52,7 @@
   ![成品展示１](https://github.com/hehung/51_music_player/blob/master/img/%E6%88%90%E5%93%81%E5%B1%95%E7%A4%BA%EF%BC%91.jpg?raw=true "成品展示１")
 
 　　来张动态图
+
 ![成品展示２](https://github.com/hehung/51_music_player/blob/master/img/%E6%88%90%E5%93%81%E5%B1%95%E7%A4%BA%EF%BC%92.gif?raw=true "成品展示２")
 
 # 代码下载
